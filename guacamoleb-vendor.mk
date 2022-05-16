@@ -7,6 +7,14 @@ PRODUCT_SOONG_NAMESPACES += \
 
 PRODUCT_COPY_FILES += \
     vendor/oneplus/guacamoleb/proprietary/odm/etc/odm_feature_list:$(TARGET_COPY_OUT_ODM)/etc/odm_feature_list \
+    vendor/oneplus/guacamoleb/proprietary/system/lib/android.hardware.vibrator@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/android.hardware.vibrator@1.0.so \
+    vendor/oneplus/guacamoleb/proprietary/system/lib/android.hardware.vibrator@1.1.so:$(TARGET_COPY_OUT_SYSTEM)/lib/android.hardware.vibrator@1.1.so \
+    vendor/oneplus/guacamoleb/proprietary/system/lib/android.hardware.vibrator@1.2.so:$(TARGET_COPY_OUT_SYSTEM)/lib/android.hardware.vibrator@1.2.so \
+    vendor/oneplus/guacamoleb/proprietary/system/lib/android.hardware.vibrator@1.3.so:$(TARGET_COPY_OUT_SYSTEM)/lib/android.hardware.vibrator@1.3.so \
+    vendor/oneplus/guacamoleb/proprietary/system/lib64/android.hardware.vibrator@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/android.hardware.vibrator@1.0.so \
+    vendor/oneplus/guacamoleb/proprietary/system/lib64/android.hardware.vibrator@1.1.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/android.hardware.vibrator@1.1.so \
+    vendor/oneplus/guacamoleb/proprietary/system/lib64/android.hardware.vibrator@1.2.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/android.hardware.vibrator@1.2.so \
+    vendor/oneplus/guacamoleb/proprietary/system/lib64/android.hardware.vibrator@1.3.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/android.hardware.vibrator@1.3.so \
     vendor/oneplus/guacamoleb/proprietary/vendor/bin/hw/android.hardware.camera.provider@2.4-service_64:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.camera.provider@2.4-service_64 \
     vendor/oneplus/guacamoleb/proprietary/vendor/bin/hw/vendor.qti.hardware.vibrator@1.2-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.vibrator@1.2-service \
     vendor/oneplus/guacamoleb/proprietary/vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
